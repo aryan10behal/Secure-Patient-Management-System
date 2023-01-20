@@ -24,11 +24,13 @@ REACT_APP_FRONTEND = http://127.0.0.1
 ```
 
 Backend
+```
 SECRET_KEY = <django secret key available in Django project>
 EMAIL_PWD = <email password for Email id used for sending OTP. You can find email we used in backend>patient_mgmt_backend>views.py file. Use your email there and put password in this field. >
 STORAGE_PATH = <path_till_FCS-Project_Folder>/FCS-Project/fcs_project/backend/mediafiles
 PINATA_API_KEY = <put your pinata account key>
 PINATA_API_SECRET = <put your pinata account secret key>
+```
 
 ### Frontend
 Go to frontend folder
